@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dynamic AI Poetry Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic AI Poetry Generator</h1>
+        <div class="selectors">
+            <label for="theme">Select Theme:</label>
+            <select id="theme">
+                <option value="romantic">Romantic</option>
+                <option value="nature">Nature</option>
+                <option value="melancholy">Melancholy</option>
+                <option value="hopeful">Hopeful</option>
+            </select>
+
+            <label for="mood">Select Mood:</label>
+            <select id="mood">
+                <option value="hopeful">Hopeful</option>
+                <option value="sad">Sad</option>
+                <option value="joyful">Joyful</option>
+                <option value="reflective">Reflective</option>
+            </select>
+        </div>
+        <button id="generateBtn">Generate Poem</button>
+        <div id="poem" class="poem"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
